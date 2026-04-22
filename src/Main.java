@@ -28,7 +28,7 @@ public class Main {
         short year = 2021;
         if (year < 1584) {
             System.out.println("Определить високосный год или нет невозможно, так как високосный год был введен после 1584 года");
-        }  else if  ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        } else if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
             System.out.println(year + " год является високосным");
         } else {
             System.out.println(year + " год не является високосным");
@@ -39,12 +39,13 @@ public class Main {
         if (deliveryDistance < 20) {
             System.out.println("Потребуется дней: " + day);
         } else if (deliveryDistance < 60) {
-            System.out.println("Потребуется дней: " + (day +1));
+            System.out.println("Потребуется дней: " + (day + 1));
         } else if (deliveryDistance < 100) {
-            System.out.println("Потребуется дней: " + (day +2));
+            System.out.println("Потребуется дней: " + (day + 2));
         } else {
             System.out.println("Доставки нет");
-        } System.out.println("Вот решение задания 5:");
+        }
+        System.out.println("Вот решение задания 5:");
         int monthNumber = 13;
         switch (monthNumber) {
             case 1:
@@ -87,7 +88,7 @@ public class Main {
                 System.out.println("Месяца под номером " + monthNumber + " не существует");
         }
 
-        }
-        }
+    }
+}
 
 
